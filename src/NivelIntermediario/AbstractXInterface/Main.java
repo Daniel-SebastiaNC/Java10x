@@ -8,7 +8,14 @@ public class Main {
         naruto.mostrarInformacao();
         naruto.estrategiaDeBatalhaNinja();
 
-        Uchiha sasuke = new Uchiha("Sasuke", "Folha", 17);
+        Uchiha sasuke = new Uchiha("Sasuke", "Folha", 17, 900, RankNinja.KAGE);
         sasuke.mostrarInformacao();
+
+        System.out.println(sasuke.rank);
+
+        sasuke.inteligenciaDeBatalha();
+        sasuke.inteligenciaDeBatalha(190);
+
+        System.out.println(sasuke);
     }
 }
