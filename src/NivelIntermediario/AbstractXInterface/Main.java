@@ -17,5 +17,7 @@ public class Main {
         sasuke.inteligenciaDeBatalha(190);
 
         System.out.println(sasuke);
+
+        //System.out.println(RankNinja.values());
     }
 }

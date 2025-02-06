@@ -4,5 +4,6 @@ public enum RankNinja {
     GENNIN,
     CHUNNIN,
     JOUNNING,
-    KAGE
+    KAGE;
+
 }
