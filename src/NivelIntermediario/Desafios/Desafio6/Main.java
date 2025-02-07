@@ -17,24 +17,28 @@ public class Main {
         listDeNinjas.add(new Ninja("Temari", 18, "Areia"));
 
         //Listar ninjas
-        System.out.println(listDeNinjas);
-        System.out.println("----------------------------------------------------");
+        System.out.println("-------------Lista Inicial-------------");
+        listDeNinjas.stream().forEach(System.out::println);
+        System.out.println("---------------------------------------");
 
         //Adiconar ao Início da lista
         //listDeNinjas.add(0, new Ninja("Tobirama Senju", 58, "Konoha"));
+        System.out.println("--------Lista Adicona no inicio--------");
         listDeNinjas.addFirst(new Ninja("Tobirama Senju", 58, "Konoha"));
-        System.out.println(listDeNinjas);
-        System.out.println("----------------------------------------------------");
+        listDeNinjas.stream().forEach(System.out::println);
+        System.out.println("---------------------------------------");
 
         //Remover do início
         //listDeNinjas.remove(0);
         Ninja ninjaRemovido =  listDeNinjas.removeFirst();
         System.out.println("Ninja removido: " + ninjaRemovido);
-        System.out.println("----------------------------------------------------");
-        System.out.println(listDeNinjas);
-        System.out.println("----------------------------------------------------");
+        System.out.println("---------------------------------------");
+        System.out.println("--------Lista Remove no inicio---------");
+        listDeNinjas.stream().forEach(System.out::println);
+        System.out.println("---------------------------------------");
 
         //Procura Ninja por index
-        System.out.println(listDeNinjas.get(4));
+        Ninja ninjaEscolhido = listDeNinjas.get(4);
+        System.out.println("Ninja escolhido: " + ninjaEscolhido);
     }
 }
