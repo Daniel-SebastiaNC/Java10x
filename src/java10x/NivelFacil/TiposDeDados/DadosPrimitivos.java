@@ -1,4 +1,4 @@
-package NivelFacil.TiposDeDados;
+package java10x.NivelFacil.TiposDeDados;
 
 public class DadosPrimitivos {
     public static void main(String[] args) {

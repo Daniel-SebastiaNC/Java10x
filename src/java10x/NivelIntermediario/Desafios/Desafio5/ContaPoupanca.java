@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios.Desafio5;
+package java10x.NivelIntermediario.Desafios.Desafio5;
 
 public class ContaPoupanca extends ContaBancaria{
     public ContaPoupanca() {

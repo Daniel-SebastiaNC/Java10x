@@ -1,4 +1,4 @@
-package NivelIntermediario.AbstractXInterface;
+package java10x.NivelIntermediario.AbstractXInterface;
 
 public class Uchiha extends Ninja{
 

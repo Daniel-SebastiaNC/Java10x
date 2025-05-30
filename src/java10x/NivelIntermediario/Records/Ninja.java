@@ -1,4 +1,4 @@
-package NivelIntermediario.Records;
+package java10x.NivelIntermediario.Records;
 
 public class Ninja {
 

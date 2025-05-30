@@ -1,4 +1,4 @@
-package NivelIntermediario.Records;
+package java10x.NivelIntermediario.Records;
 
 public record NinjaRecord(String nome, String email, int telefone) {
 

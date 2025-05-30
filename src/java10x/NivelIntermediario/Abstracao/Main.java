@@ -1,4 +1,4 @@
-package NivelIntermediario.Abstracao;
+package java10x.NivelIntermediario.Abstracao;
 
 public class Main {
     public static void main(String[] args) {

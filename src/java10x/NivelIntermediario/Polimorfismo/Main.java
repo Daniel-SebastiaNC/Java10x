@@ -1,4 +1,4 @@
-package NivelIntermediario.Polimorfismo;
+package java10x.NivelIntermediario.Polimorfismo;
 
 public class Main {
     public static void main(String[] args) {

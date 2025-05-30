@@ -1,4 +1,4 @@
-package NivelIntermediario.Generics;
+package java10x.NivelIntermediario.Generics;
 
 public class Shuriken {
     private int tamanho;

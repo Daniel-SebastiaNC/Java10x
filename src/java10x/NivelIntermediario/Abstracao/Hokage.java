@@ -1,4 +1,4 @@
-package NivelIntermediario.Abstracao;
+package java10x.NivelIntermediario.Abstracao;
 
 public abstract class Hokage {
     String nome;

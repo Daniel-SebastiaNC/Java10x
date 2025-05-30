@@ -1,4 +1,4 @@
-package NivelAvancado.Streams;
+package java10x.NivelAvancado.Streams;
 
 public class Ninja {
     private String nome;

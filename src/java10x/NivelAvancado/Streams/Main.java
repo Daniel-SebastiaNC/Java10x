@@ -1,4 +1,4 @@
-package NivelAvancado.Streams;
+package java10x.NivelAvancado.Streams;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package NivelIntermediario.Herança;
+package java10x.NivelIntermediario.Herança;
 
 public class Main {
     public static void main(String[] args) {

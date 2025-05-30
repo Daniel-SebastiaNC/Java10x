@@ -1,4 +1,4 @@
-package NivelIntermediario.HerançaMultipla;
+package java10x.NivelIntermediario.HerançaMultipla;
 
 public class Uchiha extends Ninja implements ISharingan{
 

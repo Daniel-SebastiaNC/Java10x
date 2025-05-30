@@ -1,4 +1,4 @@
-package NivelIntermediario.Herança;
+package java10x.NivelIntermediario.Herança;
 
 public class Boruto extends Uzumaki implements HyugaUzumaki{
     @Override

@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios.Desafio6;
+package java10x.NivelIntermediario.Desafios.Desafio6;
 
 public class Ninja {
     private final String nome;

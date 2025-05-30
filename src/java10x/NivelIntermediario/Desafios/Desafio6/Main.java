@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios.Desafio6;
+package java10x.NivelIntermediario.Desafios.Desafio6;
 
 import java.util.LinkedList;
 
