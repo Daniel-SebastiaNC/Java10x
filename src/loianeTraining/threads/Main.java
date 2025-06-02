@@ -19,7 +19,7 @@ public class Main {
         //t2.start();
         */
 
-        ThreadWithRunnable thread1 = new ThreadWithRunnable("Thread #1", 1000);
+        /*ThreadWithRunnable thread1 = new ThreadWithRunnable("Thread #1", 1000);
         Thread t1 = new Thread(thread1);
         t1.start();
 
@@ -36,7 +36,7 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-        System.out.println("Final");
+        System.out.println("Final");*/
 
         //t1.setPriority(Thread.MAX_PRIORITY);
         //t1.setPriority(10);
@@ -45,5 +45,9 @@ public class Main {
         //t2.setPriority(1);
 
 
+        int[] numbers = {1, 2, 3, 4, 5};
+        ThreadSum t1 = new ThreadSum("#1", numbers);
+
+        ThreadSum t2 = new ThreadSum("#2", numbers);
     }
 }
